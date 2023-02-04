@@ -103,6 +103,7 @@ button {
 .images {
     display: flex;
     gap: 36px;
+    flex-wrap: wrap;
 }
 
 .illustration {
@@ -149,9 +150,37 @@ button {
     font-size: 18px;
 }
 
+.call-to-action-section {
+    padding: 50px 0;
+}
+
 .call-to-action-content {
     background-color: #3882f6;
     width: 70%;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 32px 64px;
 }
 
+.call-to-action-title {
+    font-weight: 900;
+    font-size:larger;
+}
+
+.call-to-action-content button  {
+    border: 1px solid white;
+    align-self: center;
+    /* -------------------------- */
+}
+ /* ----------FOOTER--------------- */
+
+ .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    height: 10vh;
+ }
